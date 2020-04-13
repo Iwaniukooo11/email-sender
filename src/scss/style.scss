@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(246, 246, 246);
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    margin: 30px 0;
+}
+
+h2 {
+    color: #666;
+}
+
+p {
+    color: #888;
+}
+
+h1,
+h2,
+p {
+    display: inline-block;
+}
+
+
+input,
+textarea,
+button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.form {
+    display: grid;
+    justify-items: center;
+    row-gap: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+
+    &__input {
+        width: 100%;
+
+        &--button {
+            width: auto;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

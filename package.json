@@ -1,0 +1,42 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "description": "Simply email sender created for dev.to article",
+  "author": "Mateusz Iwaniuk",
+  "license": "GPL-2.0-only",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iwaniukooo11/email-sender"
+  },
+  "article": "",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "browser-sync": "^2.26.7",
+    "emailjs-com": "^2.4.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-wait": "0.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^4.0.1",
+    "webpack": "^4.31.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
