@@ -6,7 +6,7 @@
 - webpack
 
 ## Description
-Simple mail sender created for my [dev.to article]()
+Simple mail sender created for my [dev.to article](https://dev.to/iwaniukooo11/send-e-mails-directly-from-front-end-with-js-5d7d)
 
 ## Getting started
 
